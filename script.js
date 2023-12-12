@@ -1,6 +1,6 @@
 function decimalToBinary(num) {
 	let str = ''
-  if(num=='0') return 0
+  if(num=='0') return '0'
 	num = (+num)
 	while(num>0){
 		if(num%2===0){
